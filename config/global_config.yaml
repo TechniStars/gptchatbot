@@ -1,0 +1,17 @@
+GPT_model:
+  upper_token_limit: 16000
+  upper_token_limit_docs: 8000
+  max_different_files: 3
+
+documentation_source_files:
+  paragraph_split_regex:
+    # Regex supported 'split texts' to distinguish paragraphs in your data/raw files
+    txt: '\n\n'
+    md: '\n(?=\w.*\[\].*\n-+\n)'
+    html: '<\/p>|<p>'
+  always_get_full_files: False
+  # Will upload whole files into chatgpt, warning! True can cause not all text visible for LLM if files are too large
+
+features:
+  enable_api: True
+  enable_telegram: True

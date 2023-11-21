@@ -1,0 +1,12 @@
+{
+    "valid_question_thresholds": {
+        "valid_predictions_threshold_model1": 0.14986729652225306,
+        "valid_predictions_threshold_model2": 0.7808800498976312
+    },
+    "scaling_values": {
+        "low_similarity_value_model1": 0.19799790435821554,
+        "low_similarity_value_model2": 0.7970835910402019,
+        "high_similarity_value_model1": 0.6505148259395083,
+        "high_similarity_value_model2": 0.8960508843262991
+    }
+}
