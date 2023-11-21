@@ -1,0 +1,13 @@
+beautifulsoup4==4.12.2
+Markdown==3.4.4
+haystack
+git+https://github.com/deepset-ai/haystack.git
+farm-haystack[faiss]
+sentence-transformers==2.2.2
+python-telegram-bot==20.4
+PyYAML==6.0.1
+html2text
+openai
+uvicorn==0.23.2
+fastapi==0.103.1
+tqdm
